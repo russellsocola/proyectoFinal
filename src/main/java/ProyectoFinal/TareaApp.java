@@ -10,7 +10,8 @@ public class TareaApp {
         TareaManager tareaManager = new TareaManager();
 
         while (true) {
-            System.out.println("===== Menú =====");
+            //Notaciones para horientar al usuario de como utilizar el aplicativo
+            System.out.println("*=*=*=*=*=* Menú *=*=*=*=*=*");
             System.out.println("1. Agregar tarea");
             System.out.println("2. Completar tarea");
             System.out.println("3. Deshacer");
